@@ -1,0 +1,66 @@
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+
+.container main {
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container main nav {
+  width: 200px;
+}
+
+.container main nav ul {
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.container main nav li {
+  display: flex;
+  align-items: center;
+  height: 26px;
+  padding: 4px;
+  font-weight: 600;
+}
+
+.container main section {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+}
+
+.icon {
+  width: 16px;
+}
+
+li span {
+  margin-left: 4px;
+}
+
+li:nth-child(1) {
+  margin-left: 1px;
+}
+
+li:nth-child(2) span {
+  margin-top: 2px;
+}
+
+.container main section div.card {
+  width: 300px;
+  height: 350px;
+  background-color: aquamarine;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
