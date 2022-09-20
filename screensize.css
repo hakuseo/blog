@@ -37,8 +37,8 @@
     align-items: center;
   }
 
-  .container main nav .accodian-menu .material-icons {
-  }
+  /* .container main nav .accodian-menu .material-icons {
+  } */
 
   .container main nav ul {
     flex-direction: column;
